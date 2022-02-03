@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(136, 84, 26); */
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+li,a,button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    margin-bottom: 10px;
+    background-color: rgb(133, 82, 6);
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 9px 20px;
+    background-color: rgb(133, 82, 6);
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    padding: 10px; 
+    font-size: 20px;
+    margin: 2px 10px;
+    background-color: rgb(133, 82, 6);
+
+}
+
+
+.nav_links li a:hover{
+    background-color: rgb(133, 82, 6);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+
+button{
+    transition: all 0.2s ease 0s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(133, 82, 6);
+    
+}
+
+button:hover{
+    background-color: rgb(184, 113, 8);
+}
+
+/* About area */
+
+#about{
+    position:relative;
+    /* margin-bottom: 30px; */
+    background-color: rgb(18, 24, 87);
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+#about p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: justify;
+    margin-right: 45%;
+    margin-left: 50px;
+    float: left;
+    background-color: beige;
+    padding: 20px;
+    border: 2px solid brown;
+}
+
+
+.gslogo{
+    position: absolute;
+    margin-top: 20px;
+    height: 380px;
+    width: 325px;
+    right: 10%;
+    border: 2px solid black;
+}
+
+/* Form area */
+.container1{
+    border: 2px solid black;
+    background-color: grey;
+
+}
+
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+#contact-box button{
+    display: block;
+    width: 100px;
+    margin: 15px auto;
+    font-size: 15px;
+    border-radius: 9px;    
+}
+#contact-box form{
+    width: 45%;
+}
+
+.container{
+    border: 2px solid black;    
+    
+}
+
+.h-primary{
+    font-size: 2.5rem;
+    padding:2px;
+    margin: 5px;
+    font-family: 'Bree Serif', serif;
+    
+}
+.center{
+    text-align: center;
+}
