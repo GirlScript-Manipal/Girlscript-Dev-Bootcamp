@@ -1,0 +1,28 @@
+h1{
+  color: white;
+  text-align: center;
+  padding: 2px;
+  border: black solid 2px;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  text-decoration: underline;
+
+}
+p{
+  font-size: larger;
+  color: lightcyan;
+
+}
+h3{
+  text-align: center;
+  color: white;
+}
+form{
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: black;
+}
