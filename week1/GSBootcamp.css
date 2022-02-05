@@ -1,0 +1,140 @@
+
+#main-header{
+    background-image:url('HeaderBG.jpg');
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-family:Lucida Sans Unicode;
+    font-size: 25px;
+    background-size:cover;
+}
+
+.containers{
+    display:flex;
+    align-items: center;
+    margin:1em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:1em;
+    justify-content: space-around;
+    flex-wrap:nowrap;
+}
+
+
+.container-1{
+    font-family: serif;
+    font-size: 22px;
+    padding:1.5%;
+    max-width:60%;
+    border:0.1em rgb(61, 61, 238) dashed;
+    text-align:center;
+    border-radius: 2%;
+}
+
+.container-2{
+    float:right;
+    border: 0px;
+    max-width: 20%;
+    margin: 1em;
+    border-radius: 2%;
+    border: white 2%;
+}
+
+
+.Heading{
+    text-align:center;
+    font-size:large;
+    font:bold;
+}
+
+.Domains-1{
+    display:flex;
+    align-items: center;
+    margin:1em;
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.Domains-1 h3{
+    font-family: serif;
+    margin:1%;
+    font-size:medium;
+    padding:1.5%;
+    max-width:60%;
+    border:0.05em blue dotted;
+    text-align:center;
+    border-radius: 5%;
+}
+
+.Domains-2{
+    display:flex;
+    align-items: center;
+    margin:1em;
+
+    justify-content: center;
+    flex-wrap:nowrap;
+}
+
+.Domains-2 h3{
+    font-family: serif;
+    font-size:medium;
+    padding:1.5%;
+    margin:1%;
+    max-width:60%;
+    border:0.05em blue dotted;
+    text-align:center;
+    border-radius: 5%;
+}
+
+.Domains-1 h3:hover{
+    color:red;
+}
+.Domains-2 h3:hover{
+    color:red;
+}
+
+.facebook{
+    border-bottom:10px;
+}
+
+.Links{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.facebook{
+    border-bottom:10px;
+}
+
+.Links div{
+    border:1px;
+    padding:1%;
+}
+
+.field{
+    font-family: Lucida;
+    display:block;
+    font-size:20px;
+    padding:1.5%;
+    border-bottom:0.05em blue dashed;
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:rgb(247, 255, 255);
+}
+
+.button{
+    background-color:rgb(247, 255, 255);    
+    border-color: #00e1ff;
+    align-content: center;
+}
+
+.button:hover{
+    background-color:#00e1ff;
+    color:black;
+    font-size:medium;
+}
+
+.up{
+    float:right;
+}
