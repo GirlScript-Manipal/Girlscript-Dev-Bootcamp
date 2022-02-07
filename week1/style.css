@@ -1,0 +1,90 @@
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font: normal 16px Arial, Helvetica,sans-serif;
+    line-height: 1.6em;
+    margin: 0;
+} 
+.container{
+    width: 90%;
+    margin: auto;
+}
+.box-1{
+    background-color: #333;
+    color: honeydew;
+    border: 5px orangered solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-right-width: 10px;
+    padding: 8px;
+    margin-top: 10px;
+
+}
+.box-1 h1{
+    font-family: tahoma;
+    font-weight:800;
+    font-style:bold;
+    text-decoration:underline;
+    text-transform: uppercase;
+    word-spacing: 0.2em;
+    line-height: normal;
+    color:orangered;
+
+}
+.fixme{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+    
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+
+}
+a:active{
+    color: green;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.button{
+    background-color: rgb(29, 28, 28);
+    color: rgb(196, 196, 163);
+    padding: 10px;
+    border: none;
+
+}
+.button:hover{
+    background-color: red;
+    color: white;
+}
+.p-box{
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p{
+    float: left;
+    width: 70%;
+    
+    box-sizing: border-box;
+}
