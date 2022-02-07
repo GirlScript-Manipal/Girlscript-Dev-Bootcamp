@@ -1,0 +1,45 @@
+body
+{
+    background-color:rgba(150, 99, 6, 0.644);
+    color:rgb(0, 0, 0);
+
+    font-family:cursive;
+    font-size: 16px;
+
+    margin: 30px;;
+}
+
+.box
+    {
+        padding: 10px;
+        border-width: 10px;
+        border-color: black;
+        border-style: double;
+    }
+
+.formstyling
+{
+    padding: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    background-color: rgb(180, 139, 88);
+}
+
+.image
+{
+    float: right;
+    width: 30%;
+}
+
+.about
+{
+    float: left;
+    width: 70%;
+}
+
+#main-header
+{
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
