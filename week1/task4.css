@@ -19,15 +19,17 @@ h1{
   }
   h3{
     text-align: center;
-    color: lightcyan; 
+    color: rgb(105, 219, 219); 
     padding: 1px;
     border: red solid 2px;
+    text-decoration: underline ;
   }
   form{
     text-align: center;
     color: white;
+    padding: 10px;
   }
+
   body{
     background-color: black;
   }
-
