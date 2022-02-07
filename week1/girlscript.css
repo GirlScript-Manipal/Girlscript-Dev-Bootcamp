@@ -1,0 +1,51 @@
+h1{text-align: center;
+text-decoration: underline;}
+
+body{background-color: lightcyan;
+border: 5px solid;}
+.box-1{
+ 
+ width: 50%;
+ line-height: 3;
+ border: 5px solid;
+ padding: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.move{float: right ;
+position: relative; bottom: 550px  ;
+padding: 50px;}
+
+.form-group{ text-align: center;
+ border: 2px solid;
+ padding:20px;
+ margin: 10px;
+display: contents;
+ 
+ }
+ h2{position: relative; left: 180px; }
+
+ .form1{position: relative; left: 180px;
+ font-weight: bold;}
+
+ .form2{position:relative; left:165px;
+ font-weight: bold; }
+
+
+ .form3{position: relative; left: 210px ;
+ font-weight: bold;}
+
+ .form4{position: relative; left: 155px;
+ line-height: 2;
+
+}
+
+ .form5{position: relative; left: 210px;}
+
+ .form6{position: relative; left: 210px;
+ color: azure;}
+ 
+
+ button {border: 3px solid;
+ line-height: 1;}
