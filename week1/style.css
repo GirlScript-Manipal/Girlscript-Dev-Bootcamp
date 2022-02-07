@@ -1,19 +1,28 @@
 body {
 
-    background-color: #f6f1ee;
+    background-color: #2e3442;
     
     }
     
     h1{
         text-align: center;
     font-family: 'Prompt', sans-serif;
+    text-align: center;
+    padding: 10px;
+
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */*
-    
-    color: #141228;
+    color: #f6f1ee;
     }
     
-    h2{
+    h1:hover{
+        color: #e35d5e;
+    }
+
+    h1:active{
+        color: #b7d2cd;
+    }
+    H2{
     
     text-align: left;
     
@@ -24,14 +33,16 @@ body {
     padding-left:2cm;
     
     padding-top: 1cm;
+    font-size: 30px;
     
     }
     
     .first{
     
     align-content: center;
+    border-radius: 25px;
     
-    background-color: #2e3442;
+    background-color: #141228;
     
     border-right: 10px #e35d5e solid;
     
@@ -54,8 +65,9 @@ body {
     color: #fff;
     
     padding-left: 2cm;
-    
+    font-size: 15px;
     padding-bottom: 1cm;
+    float: inline-start;
     
     position: relative;
     
@@ -71,15 +83,16 @@ body {
     
     border-radius: 50%;
     
-    width: 400px;
+    width: 300px;
     
-    height: 400px;
+    height: 300px;
     
-    display: block;
+    /* display: inline; */
     
-    margin-left: auto;
-    
-    object-position: top ;position: relative;
+    margin-left: 30px;
+    margin-bottom: 30px;
+     
+    /* object-position: top ;position: relative; */
     
     }
     
@@ -89,4 +102,70 @@ body {
     
     width: 90%;
     
+    }
+
+
+    .My-form{
+        padding: 20px;
+        color: #f6f1ee;
+        font-family: 'Prompt', sans-serif;
+        text-align: center;
+    }
+
+    .My-form .form-group{
+        padding-bottom:15px;
+
+    }
+
+    .My-form label{
+         display:block ;
+         text-align: center;
+    }
+
+    .My-form input[type="text"]{
+        width: 100%;
+        padding: 8px;
+        border: 2px solid #f6f1ee;
+        border-radius: 25px;
+
+    }
+    .My-form textarea{
+        width: 100%;
+        padding: 8px;
+        border: 2px solid #f6f1ee;
+        border-radius: 15px;
+        
+    }
+    
+    .My-form input[type="submit"]{
+        background-color: #b7d2cd;
+        padding: 10px 15px;
+        color: #f6f1ee;
+        border: 2px solid #b7d2cd;
+        border-radius: 25px;
+        font-size: medium;
+    }
+    .My-form select{
+        margin-right: 10px;
+        width: 100%;
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .button {
+    transition-duration: 0.4s;
+    /* width: fit-content;̀
+    align-self: center;
+    margin-top: 10px; */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+    
+    } 
+
+    .button:hover {
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
     }
