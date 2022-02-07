@@ -1,0 +1,105 @@
+body{
+	background-color: lightblue;
+	color: black;
+}
+
+#main-header{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	font: normal 20px Georgia,sans-serif;
+}
+
+.box-1{
+	background-color: darkcyan;
+	max-width: 60%;
+	color: black;
+	font-style:italic;
+	font-size: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	margin: 1em;
+}
+@media(min-width:600px){
+    .container-1{
+        display:flex;
+        align-items:stretch;
+        margin: 1em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+.Heading{
+	text-align: center;
+	font-size: x-large;
+	font: bold;
+}
+.Domains-1{
+	display: flex;
+	align-items: center;
+	margin: 1em;
+	justify-content: center;
+	flex-wrap: nowrap;
+
+}
+.Domains-1 h4{
+	font-family: serif;
+	margin: 1%;
+	font-size: large;
+	padding: 1.5%;
+	max-width: 60%;
+	border: 0.07em red dotted; 
+	text-align: center;
+	border-radius: 5%;
+}
+.Domains-2{
+	display: flex;
+	align-items: center;
+	margin: 1em;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+.Domains-2 h4{
+	font-family: serif;
+	font-size: large;
+	padding: 1.5%;
+	margin: 1%;
+	max-width: 60%;
+	border: 0.07em red dotted;
+	text-align: center;
+	border-radius: 5%;
+}
+.FORM{
+	padding-top: 70px;
+	padding: 50px;
+	max-width: 50%;
+	font-size: large;
+
+}
+.FORM .FORMGROUP{
+	padding-bottom: 15px;
+
+}
+.FORM label{
+	display: block;
+
+}
+.FORM input[type="text"], .FORM input[type="email"]{
+	padding: 8px;
+	width: 100%;
+	border-bottom: #00eeff groove2px;
+}
+.button{
+	background-color: black;
+	color:white;
+    padding: 10px 15px;
+	border: none;
+}
+.button:hover{
+    background-color:red;
+    color:black;
+    font-size:medium;
+}
+    
