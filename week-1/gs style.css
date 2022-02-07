@@ -1,0 +1,174 @@
+body {
+    background-color: #eee;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  #main-header {
+    align-items: center;
+    background-color: #008081;
+    color: #fff;
+  }
+  
+  #navbar {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #navbar ul {
+    padding: 0;
+    list-style: none;
+  }
+  #navbar li {
+    display: inline;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+  }
+  
+  #showcase {
+    background-image: url("image.jpg");
+    color: #eee;
+    background-position: center right;
+    min-height: 250px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #showcase h1 {
+    color: #fff;
+    font-size: 50;
+    line-height: 1.6em;
+    padding-top: 30px;
+  }
+  
+  #main {
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .move {
+    float: right;
+    position: relative;
+    bottom: 500px;
+    padding: 50px;
+  }
+  
+  .form {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 20px;
+    width: 320px;
+  }
+  
+  .subtitle {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 60;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+  
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+  .submit {
+    background-color: #008081;
+    border-radius: 10px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 30px;
+    // outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: coral;
+  }
+  
