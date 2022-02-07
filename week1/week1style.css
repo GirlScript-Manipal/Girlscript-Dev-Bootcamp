@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+    Font-family: Arial;
+}
+
+.box1{
+    line-height: normal;
+}
+
+
+
+
+h1{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.container{
+    float: left;
+    background-color: rgb(0, 255, 255);
+    border: dotted red;
+    padding: auto;
+    margin: auto;
+    width: 50%;
+    
+}
+.myform label{
+    display: block ;
+
+}
+
+.myform{
+    text-align: center;
+}
+
+.image{
+    float: right;
+    height: fit-content;
+}
+
+.clr{
+    clear: both;
+}
+
