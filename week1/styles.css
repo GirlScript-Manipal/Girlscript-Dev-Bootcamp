@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    height: 100%;
+   /*background-image: url('https://p4.wallpaperbetter.com/wallpaper/429/493/201/trees-winter-snow-hd-trees-with-snow-wallpaper-preview.jpg');*/
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+h1{
+    font-family: 'Share Tech Mono';
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.left, .right
+{
+    
+    height: 100%;
+      width: 50%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+      padding: 20px;
+}
+
+h2{
+    font-family: 'Share Tech';
+    color: #E48CDA;
+    font-size: 1.65em;
+}
+
+p{
+    font-family: 'Consolas';
+    /*font-size: 1.2em;*/
+}
+
+.left {
+    left:0;
+    width: 65%;
+    
+}
+
+  .left > p{
+  margin-top: 20px; 
+   margin-right: 70px; 
+   width: 90%;
+}
+
+form{
+    font-family: 'Consolas';
+   /**/
+    color: white;
+    padding: 20px;
+    width: 75%;
+    background-color: #010626;
+    
+    
+}
+
+.right > h2{
+    font-size: 2em;
+    color: white;
+}
+.right{
+   right:0;
+    background-color: #696E8C
+    ;
+    width:35%;
+    padding-left: 20px;
+    padding-top: 70px;
+    align-content: center;
+    background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1220&q=80'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+
+img{
+    width: 15%;
+    height: 15%;
+}
+.flex2 > h2{
+    text-align: center;
+}
+
