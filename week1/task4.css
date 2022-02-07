@@ -1,0 +1,33 @@
+h1{
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border: red solid 2px;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    text-decoration: underline ;
+  
+  }
+  p{
+    font-size: larger;
+    color: rgb(14, 204, 204);
+    line-height : 1.5 em;
+    margin:2 em;
+  
+  }
+  h3{
+    text-align: center;
+    color: lightcyan; 
+    padding: 1px;
+    border: red solid 2px;
+  }
+  form{
+    text-align: center;
+    color: white;
+  }
+  body{
+    background-color: black;
+  }
+
