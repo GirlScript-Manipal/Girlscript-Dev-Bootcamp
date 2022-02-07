@@ -1,0 +1,106 @@
+body {
+  background-image: url(../images/finalb.jpg);
+  background-size: cover;
+}
+#main-header {
+  padding-top: none;
+  color: rgb(243, 236, 236);
+  background-color: rgb(10, 5, 3);
+  text-align: center;
+  font-size: large;
+}
+
+#logo {
+  float: right;
+  margin-right: 50px;
+}
+.showMain {
+  margin-left: 100px;
+  font-size: large;
+}
+.showDomains {
+  font-size: x-large;
+}
+
+.dom {
+  box-sizing: border-box;
+}
+#list {
+  list-style: none;
+  width: 25%;
+  font-size: large;
+  padding-left: 300px;
+}
+#list :first-child {
+  border-radius: 5px;
+  border-bottom: 10px solid;
+  border-color: white;
+  background-color: bisque;
+}
+#list :last-child {
+  border-radius: 5px;
+  border-color: white;
+  background-color: bisque;
+  padding-bottom: none;
+}
+#list :nth-child(2) {
+  border-radius: 5px;
+  border-bottom: 10px solid;
+  border-color: white;
+  background-color: bisque;
+}
+#list :nth-child(3) {
+  border-radius: 5px;
+  border-bottom: 10px solid;
+  border-color: white;
+  background-color: bisque;
+}
+#list :nth-child(4) {
+  border-radius: 5px;
+  border-bottom: 10px solid;
+  border-color: white;
+  background-color: bisque;
+}
+
+.form {
+  padding: 10px;
+}
+
+.form .form-group {
+  padding-bottom: 10px;
+}
+
+.form label {
+  display: block;
+}
+
+.form input[type="text"],
+.form textarea {
+  padding: 5px;
+  width: 20%;
+}
+.button {
+  size: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+.block {
+  line-height: 1.3em;
+  align-items: center;
+  font-style: italic;
+  font-size: 18px;
+  float: right;
+
+  margin: 10px 10px;
+
+  box-sizing: border-box;
+  width: 35%;
+  height: 80%;
+}
+p {
+  align-items: center;
+}
+#list1 {
+  list-style: square;
+}
