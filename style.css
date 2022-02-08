@@ -1,0 +1,139 @@
+body {
+  background-color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: coral;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#navbar {
+  background-color: #333;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#image a:hover {
+  color: aqua;
+}
+
+#showcase {
+  background-image: url("../Css/showcase.jpg");
+  background-position: center right;
+  min-height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-repeat: repeat-x;
+  background-size: 100%;
+}
+
+#showcase h1 {
+  color: rgb(244, 245, 245);
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  color: black;
+  text-align: justify;
+  padding: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#links a:hover {
+  color: rgb(17, 75, 75);
+}
+
+.block h3 {
+  color: rgba(226, 29, 29, 0.842);
+  text-align: center;
+}
+#main {
+  float: left;
+  width: 100%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.head {
+  color: #fff;
+  padding: 2%;
+  margin-top: 30%;
+  margin-bottom: 0%;
+  text-align: center;
+  color: white;
+  background-color: coral;
+  text-decoration: wavy;
+}
+
+.my-form {
+  margin-top: 0%;
+  padding: 20px;
+}
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"] {
+  padding: 8px;
+  width: 70%;
+}
+
+.my-form input[type="number"] {
+  width: 10%;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+
+#main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+}
