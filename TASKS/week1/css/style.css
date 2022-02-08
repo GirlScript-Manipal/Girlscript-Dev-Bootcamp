@@ -1,0 +1,41 @@
+body{
+	font-family: cursive;
+	background-image: url(../images/fi.jpg);
+	background-size: cover;
+}
+.mainheading{ 	
+	text-align: center;
+	color: white;
+	background-color: black;
+
+}
+.about{
+	padding: 10px;
+	font-size: 18px ;
+	width: 60%;
+		box-sizing: border-box;
+}
+.img{
+	width: 200px;
+	padding-right: 20px;
+	float: right;
+
+}
+.form{
+	box-sizing: border-box;
+}
+.form .formgrp{
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+.form input[type="text"], .form input[type="number"]{	
+	width: 15%;
+
+}
+.button{
+	font-family: cursive;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
