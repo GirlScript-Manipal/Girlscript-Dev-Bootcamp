@@ -1,2 +1,145 @@
-hello
-addition
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color:rgb(192, 197, 221)
+        }
+        .title{
+            /* border: 2px solid red; */
+            margin-top: 0;
+            text-align: center;
+            margin-left: 460px;
+            margin-bottom: 0;
+            color:black;
+            /* background-color: rgb(63, 63, 167); */
+            display: inline;
+            font-size: 41px;
+        }
+        #logo{
+            float:right;
+            height: 116px;
+            display: fixed;
+            /* border: solid red; */
+        }
+        #flake{
+            float: right;
+            height: 500px;
+            margin-top: 81px;
+            margin-right: 0px;
+        
+
+        }
+        .input{
+            /* border: 2px solid purple; */
+            clear: right;
+            display: inline-block;
+           font-size: 20px;
+           margin-top: 5px;
+           
+
+        }
+        .input ul{
+            list-style:none;
+        }
+        .input input{
+            font-size: 20px;
+        }
+        #input1,#input2{
+            margin-bottom: 10px;
+        }
+        .about{
+            float:right;
+           
+            color: rgb(30, 30, 179);
+            margin-top: 42px;
+            font-size: 30px;
+            height: 400px;
+            width: 400px;
+            
+        }
+        #btn{
+            
+            /* transition: all 0.5s; */
+            background-color: rgb(30, 30, 179);
+            opacity: 0.8;
+            transition: 0.3s;
+            margin-left: 400px;
+            margin-top: 0px;
+            font-size: 20px;
+        }
+        #btn:hover{
+            opacity: 1;
+            cursor:pointer;
+            text-decoration: underline;
+        }
+        .domains{
+            font-size: 35px;
+            /* border: solid red; */
+            margin-top: 34px;
+            /* display: inline-block; */
+        }
+        .domains ul{
+            list-style: none;
+        }
+        #header{
+            margin-left: 198px;
+            color:rgb(30, 30, 179);
+        }
+        #b1,#b2,#b3,#b4,#b5{
+            transition: transform 0.2s;
+            color: white;
+            font-size: 30px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            background-color:rgb(30, 30, 179) ;
+        }
+      
+        #b1{margin-left: 203px;}
+        #b2{margin-left: 180px;}
+        #b3{margin-left: 163px;}
+        #b4{margin-left: 141px;}
+        #b5{margin-left: 50px;}
+        #b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover{
+            transform: scale(1.5);
+        }
+    </style>
+
+    </head>
+    <body>
+        <div>
+            <h1 class="title">Winter Mentorship Bootcamp  </h1>
+        <img id="logo" src="finalUntitled-1.png" alt="logo">
+        </div>
+        <div class="about">
+        <p >Girlscript welcomes you to the winter workshop where 6 weeks of bountiful learning awaits you. We have domain bootcamps that will help master all skills and all you have to do is follow along. </p>
+        <p > We will provide you with an incredibly well curated resource roadmap, along with interactive doubt clarification sessions, workshops and capstone projects!</p>
+    </div>
+        <div class="domains">
+            <strong id="header">DOMAINS</strong>
+            <ul>
+                <li><button id="b5">WEB/APP DEVELOPMENT</button></li>
+                <li><button id="b4">ROBOTICS</button></li>
+                <li><button id="b3">DESIGN</button></li>
+                <li><button id="b2">AL/ML</button></li>
+                <li><button id="b1">CP</button></li>    
+            </ul>
+
+        </div>
+        <form class="input">
+            <ul>
+                <li id="input1"><label>Name:</label>
+                <input type="text"></li>
+                <li id="input2"><label>Phone:</label>
+                <input type="number"></li>
+                <li id="input3"><label>Github id:</label>
+                <input type="text"></li>
+            </ul>
+            <button id="btn">Submit</button>
+        </form>
+    </body>
+</html>
