@@ -1,0 +1,16 @@
+:root{
+    background-color: #000000;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+}
+
