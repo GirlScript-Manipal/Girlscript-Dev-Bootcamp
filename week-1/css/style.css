@@ -1,5 +1,5 @@
 :root{
-    background-color: #000000;
+    background-color: #292626;
 }
 
 *{
@@ -14,3 +14,36 @@
     font-size: 23px;
 }
 
+.image{
+    text-align: right;
+    float: right;
+}
+
+.about{
+    color: aliceblue;
+}
+
+.field{
+    color: aliceblue;
+    padding-bottom: 15px;
+
+}
+
+#header2{
+    color: aliceblue;
+    padding: 20px;
+}
+
+.myform{
+    padding: 20px;
+
+}
+
+.myform label{
+    display: block;
+}
+
+.myform input[type="text"], .myform textarea, .myform input[type="email"], .myform option{
+    padding: 8px;
+    width: 70%;
+}
