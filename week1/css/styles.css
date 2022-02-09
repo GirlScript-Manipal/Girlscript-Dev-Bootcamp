@@ -1,0 +1,102 @@
+body{
+	background-color: rgb(74, 64, 99);
+	background-image: url("../images/backgroundimg.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-blend-mode: soft-light;
+	color: rgb(231, 249, 169);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	line-height: 1.6em;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+
+.button{
+	background-color: darkgrey;
+	padding:  10px;
+	border: none;
+	width: 30%;
+	height: 50%;
+	size: 50px;
+}
+
+.button:hover{
+	background-color: rebeccapurple;
+}
+
+#nav-bar{
+	background-image: url("../images/background2.png");
+	background-repeat: no-repeat;
+	background-size: 80% 100%;
+
+	align-content: center;
+	font-weight: bold;
+	width: 100%;
+	padding: 20px;
+	color: red;
+	margin: 10px;
+}
+
+#nav-bar ul{
+	padding: 0px;
+}
+
+.box1 h1{
+	font-family: cursive;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.box2{
+	color: royalblue;
+	font-family: monospace;
+	padding: 25px;
+	margin: 10px;
+	background-color: lightgoldenrodyellow;
+	border: 7px mediumvioletred solid;
+}
+
+.box2 h1{
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.my-form{
+	padding: 15px;
+}
+
+.my-form .form-group{
+	padding-bottom: 10px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type = "text"]{
+	padding: 8px;
+	width:  50%;
+}
+
+#nav-bar li{
+	list-style: none;
+	padding: 0;
+}
+
+#nav-bar li{
+	display: inline;
+}
+
+#nav-bar a{
+	color:  red;
+	text-decoration: none;
+	font-size: 16px;
+	padding-right: 15px;
+}
