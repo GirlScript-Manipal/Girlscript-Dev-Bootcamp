@@ -1,0 +1,52 @@
+
+<html>
+    <head>
+        <title>OWL</title>
+        <link rel="stylesheet" href = "styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel = "icon" href = 
+        "https://blog.logomyway.com/wp-content/uploads/2021/09/hogwarts-logo.jpg"
+                type = "image/x-icon">
+    </head>
+    <body>
+        <div class = 'intro' id = 'intro'>
+            <h1>Ordinary Wizarding Level (O.W.L.) Examinations</h1><br>
+            <p>Please open the question booklet only when instructed to do so</p><br>
+            <button type="button" id = "open">Open Booklet</button>   
+        </div>
+        <div class = "result" id ='result'>
+            <h1 id = 'msg1_txt'></h1>
+            <p id='msg2_txt'></p>
+            <img id = 'character'>
+            <p id = 'pts'></p>
+            <h3 id = 'g'></h3>
+            <a href = "quiz.html">
+                <button>Retry</button>
+            </a>
+        </div>
+       <div style="height: 180px;"></div>
+        <div class = 'questions' id='questions'>
+            <p id="status"></p>
+           <h2 class = 'ques' id = 'q'>Question</h2>
+           
+           <form id="form">
+              <input type="radio" name="answer" id="a" class="answer">
+              <label for="a" id="op_a">Option a</label><br>
+
+              <input type="radio" name="answer" id="b" class="answer">
+              <label for="b" id="op_b">Option b</label><br>
+    
+              <input type="radio" name="answer" id="c" class="answer">
+              <label for="c" id="op_c">Option c</label><br>
+
+              <input type="radio" name="answer" id="d" class="answer">
+              <label for="d" id="op_d">Option d</label><br><br>
+
+              <button id ="sub" type="button">Submit</button>
+            </form>
+        </div>
+        
+        <script src = "script.js" defer></script>
+    </body>
+</html>

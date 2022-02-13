@@ -1,0 +1,144 @@
+html{
+    background-image: url('22935.jpg');
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.intro{
+    background: rgba(0, 0, 0, 0.6);
+    color: #E5BA40;
+    font-family: 'Rowdies';
+    width: 500px;
+    height: 250px;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+p{
+    color: #939196;
+    font-family: 'Raleway';
+}
+
+h1, h2{
+    color: #E5BA40;
+    font-family: 'Rowdies';
+}
+
+h3{
+    color: #E5BA40;
+}
+
+button{
+    font-family: 'Raleway';
+    padding: 13px;
+    background-color: black;
+    color: #E5BA40;
+    border-radius: 1cm;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover{
+    background-color: #E5BA40;
+    color: black;
+}
+
+.questions{
+    background: rgba(0, 0, 0, 0.6);
+    width: 550px;
+    height: 360px;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    right:0; left:0;
+    font-family: 'Raleway';
+    color: #939196;
+    justify-content: space-between;
+    border-radius: 15px;
+    display: none;
+}
+
+.result{
+    background: rgba(0, 0, 0, 0.6);
+    width: 550px;
+    height: max-content;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    right:0; left:0;
+    font-family: 'Raleway';
+    color: #939196;
+    justify-content: space-between;
+    display: none;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+}
+
+form{
+    text-align: left;
+    margin-left: 80px;
+    color: #939196;
+    font-family: 'Raleway';
+}
+
+label{
+    cursor: pointer;
+    font-size: medium;
+}
+
+
+input[type="radio"]{
+    margin-top:-1px;
+    vertical-align: baseline;
+    margin:10px;
+    cursor: pointer;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #E5BA40;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
