@@ -30,15 +30,18 @@ nav img{
     padding: 8px 12px;
     position: relative;
 }
+/*gives white color to Home, About, Contact when mouse is over it*/
 .nav-links ul li a:hover{
     color: #fff;
     transition: 0.5s;
 }
+/*gives white color to Home, About, Contact */
 .nav-links ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font: size 13px;
 }
+/*gives underline hover to Home, About, Contact when mouse is over it*/
 .nav-links ul li ::after{
     content: "";
     width: 0%;
@@ -48,9 +51,11 @@ nav img{
     margin:auto;
     transition:0.5s;
 }
+/*gives underline hover to Home, About, Contact when mouse is over it and extends it to how much size they have*/
 .nav-links ul li:hover ::after{
     width: 100%;
 }
+/* to design and allign the layout of whatever's in this class header*/
 .text-center{
     width: 100%;
     color: #fff;
@@ -71,6 +76,7 @@ nav img{
     font-size: 14px;
     line-height: 1.7;
 }
+/*to design the Join Us button */
 .text-center a{
     background: transparent;
     color: #fff;
@@ -82,12 +88,14 @@ nav img{
     text-decoration: none;
     cursor: pointer;
 } 
+/* to give a hover effect on "Join Us" button when mouse is over it*/
 .text-center a:hover{
     border-color: rgb(0, 0, 0);
     background: #fff;
     color: #000;
     transition: 0.5s;
 }
+/*to have a good layout on small screens*/
 @media(max-width:767px){
     .text-center h1{
         font-size: 20px;
@@ -115,17 +123,21 @@ nav img{
         text-decoration: none;
         cursor: pointer;
     } }
+    
+/*to center align "Contact Us"*/
 .container {
     margin-top: 5%;
     text-align: center;
     width: 100%;
     position: absolute;
 }
+/*to  make  "Contact Us" bold*/
 .container h1{
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 2%;
 }
+
 .form-horizontal{
     height: 100%;
     justify-content:center;
