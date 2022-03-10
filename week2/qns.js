@@ -42,6 +42,6 @@ let theQues = [
         c: "nice",
         d: "loved it",
         correct: 3,
-        solution: "hehe"
+        solution: "The answer is LOVED IT, hehe"
     }
 ];
