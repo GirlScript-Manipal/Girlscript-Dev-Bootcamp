@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="container">
+        <div id="start">
+            <h1>The Quiz</h1>
+            <hr>
+            <br>
+            <button type="button" id="begin">Start</button>
+        </div>
+
+        <div id="question">
+            <h1 id="qn"></h1>
+            <h1 id="rightwrong"></h1>
+            <hr>
+            <br>
+            <div id="answer-buttons">
+                <button style="margin-bottom: 2%; width: 85%;" type="button" id="op1" class="ansbutt"></button>
+                <button style="margin-bottom: 2%; width: 85%;" type="button" id="op2" class="ansbutt"></button>
+                <button style="margin-bottom: 2%; width: 85%;" type="button" id="op3" class="ansbutt"></button>
+                <button style="margin-bottom: 10%; width: 85%;" type="button" id="op4" class="ansbutt"></button>
+                <h2 id="sol"></h2>
+                <br>
+                <button style="width: 50%;" type="button" id="submit">Submit</button>
+                <button style="width: 50%;" type="button" id="next">Next</button>
+            </div>
+        </div>
+
+        <div id="end">
+            <h1>Game Over</h1>
+            <hr>
+            <img id="image">
+            <h2 id="points"></h2>
+        </div>
+    </div>
+    
+    <script src="qns.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
